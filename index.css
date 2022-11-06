@@ -9,12 +9,17 @@
 
 .u-section-1 .u-group-1 {
   width: 962px;
-  min-height: 510px;
+  min-height: 365px;
+  height: auto;
   margin: 60px auto;
 }
 
+.u-section-1 .u-container-layout-1 {
+  padding-bottom: 0;
+}
+
 .u-section-1 .u-text-1 {
-  font-size: 4.5rem;
+  font-size: 3.75rem;
   font-family: Lato, sans-serif;
   text-shadow: 2px 2px 8px rgba(62,88,111,0.4);
   font-weight: 700;
@@ -56,26 +61,14 @@
   font-size: 1.125rem;
   background-image: none;
   border-style: none;
-  margin: 58px auto 0;
+  margin: 20px auto 0;
   padding: 14px 42px 15px 41px;
-}
-
-.u-section-1 .u-social-icons-1 {
-  height: 34px;
-  min-height: 16px;
-  width: 34px;
-  min-width: 16px;
-  white-space: nowrap;
-  margin: 58px auto 0;
-}
-
-.u-section-1 .u-icon-1 {
-  height: 100%;
 }
 
 @media (max-width: 1199px) {
   .u-section-1 .u-group-1 {
     width: 940px;
+    height: auto;
   }
 }
 

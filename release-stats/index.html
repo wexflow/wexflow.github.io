@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Wexflow Release Stats</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Get the latest release stats like download counts, release dates, author on any GitHub project">
+    <meta name="keywords" content="GitHub, release, download, count">
+    <link rel="icon" href="img/favicon.ico">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="third-party/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href=".">
+                    <!-- all icons from https://getbootstrap.com/docs/3.3/components/#glyphicons -->
+                    <span class="glyphicon glyphicon-stats"></span>&nbsp;
+                    Wexflow Release Stats
+                </a>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row" id="stats-result">
+        </div>
+        <div id="loader-gif">
+            <img src="img/gif-load.gif">
+        </div>
+    </div>
+</body>
+<script type="text/javascript" src="third-party/jquery/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="third-party/bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="third-party/typahead/bootstrap3-typeahead.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+</html>

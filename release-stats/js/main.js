@@ -75,9 +75,6 @@ function showStats(data) {
         var latest = true;
         var totalDownloadCount = 0;
 
-        // Set title to username/repository
-        document.title = $("#username").val() + "/" + $("#repository").val() + " - " + document.title;
-
         // Sort by creation date of the commit the release is targeting
         data.sort(function (a, b) {
             return (a.created_at < b.created_at) ? 1 : -1;

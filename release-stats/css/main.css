@@ -2,6 +2,10 @@ html * {
     font-family: 'Roboto', sans-serif;
 }
 
+.container{
+    overflow-x: hidden;
+}
+
 .form-group {
     width: 100%;
 }
@@ -13,6 +17,8 @@ html * {
 #stats-result {
     margin-top: 50px;
     margin-bottom: 40px;
+    margin-right: -12px;
+    margin-left: -12px;
 }
 
 .error {

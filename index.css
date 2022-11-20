@@ -25,11 +25,6 @@
   letter-spacing: 2px;
   text-transform: none;
   width: 411px;
-  --animation-custom_in-translate_x: 0px;
-  --animation-custom_in-translate_y: 0px;
-  --animation-custom_in-opacity: 0;
-  --animation-custom_in-rotate: 0deg;
-  --animation-custom_in-scale: 1;
   margin: 20px auto 0;
 }
 
@@ -86,6 +81,11 @@
 
   .u-section-1 .u-text-1 {
     animation-duration: 1000ms;
+    --animation-custom_in-translate_x: 0px;
+    --animation-custom_in-translate_y: 0px;
+    --animation-custom_in-opacity: 0;
+    --animation-custom_in-rotate: 0deg;
+    --animation-custom_in-scale: 1;
   }
 
   .u-section-1 .u-image-1 {

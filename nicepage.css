@@ -36579,6 +36579,9 @@ a.u-link.u-text-hover-grey-90:hover {
 
 .u-header .u-text-1 {
   font-weight: 400;
+  text-transform: none;
+  line-height: 1.2;
+  letter-spacing: 1px;
   margin: -30px auto 27px 0;
 }
 @media (max-width: 1199px) {

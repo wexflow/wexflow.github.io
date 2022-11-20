@@ -36559,12 +36559,12 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-sheet-1 {
-  min-height: 78px;
+  min-height: 60px;
 }
 
 .u-header .u-menu-1 {
   font-family: size-14;
-  margin: 21px 0 0 auto;
+  margin: 12px 0 0 auto;
 }
 
 .u-header .u-nav-1 {
@@ -36582,7 +36582,7 @@ a.u-link.u-text-hover-grey-90:hover {
   text-transform: none;
   line-height: 1.2;
   letter-spacing: 1px;
-  margin: -30px auto 27px 0;
+  margin: -30px auto 18px 0;
 }
 @media (max-width: 1199px) {
   .u-header .u-menu-1 {

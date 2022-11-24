@@ -10,7 +10,6 @@
   min-height: 463px;
   margin-top: 53px;
   margin-bottom: 60px;
-  height: auto;
 }
 
 .u-section-1 .u-container-layout-1 {
@@ -67,10 +66,6 @@
 }
 
 @media (max-width: 1199px) {
-  .u-section-1 .u-group-1 {
-    height: auto;
-  }
-
   .u-section-1 .u-text-1 {
     margin-right: 569px;
     margin-left: 0;

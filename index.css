@@ -1,16 +1,16 @@
  .u-section-1 {
-  background-image: none;
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url("images/earth.png");
+  background-position: 50% 50%;
 }
 
 .u-section-1 .u-sheet-1 {
-  min-height: 744px;
+  min-height: 800px;
 }
 
 .u-section-1 .u-group-1 {
   min-height: 496px;
-  margin-top: 158px;
+  margin-top: 150px;
   margin-bottom: 60px;
-  height: auto;
 }
 
 .u-section-1 .u-container-layout-1 {
@@ -26,28 +26,29 @@
 
 .u-section-1 .u-text-1 {
   font-size: 3.75rem;
-  font-family: Lato, sans-serif;
-  text-shadow: 2px 2px 8px rgba(62,88,111,0.4);
-  font-weight: 700;
+  font-family: Poppins-SemiBold;
+  text-shadow: 2px 2px 8px rgba(29,49,73,0.4);
   letter-spacing: 2px;
   text-transform: none;
-  margin: -389px 575px 0 20px;
+  font-weight: normal;
+  margin: -396px 577px 0 18px;
 }
 
 .u-section-1 .u-text-2 {
-  font-family: Roboto, sans-serif;
+  font-family: Poppins-Light;
   font-weight: 400;
   letter-spacing: 0px;
   text-transform: none;
   line-height: 1.4;
   font-size: 1.125rem;
-  margin: 36px 662px 0 107px;
+  margin: 43px 662px 0 107px;
 }
 
 .u-section-1 .u-text-3 {
   letter-spacing: 0px;
   font-size: 0.875rem;
   text-transform: none;
+  font-family: Poppins-Light;
   margin: 9px 794px 0 239px;
 }
 
@@ -59,10 +60,11 @@
 .u-section-1 .u-btn-2 {
   letter-spacing: 3px;
   text-transform: uppercase;
-  font-weight: 700;
   font-size: 1.125rem;
   background-image: none;
   border-style: none;
+  font-weight: 700;
+  font-family: Poppins-SemiBold;
   margin: 30px auto 0 184px;
   padding: 14px 42px 15px 41px;
 }
@@ -74,7 +76,6 @@
 
   .u-section-1 .u-group-1 {
     min-height: 468px;
-    height: auto;
   }
 
   .u-section-1 .u-image-1 {
@@ -255,8 +256,8 @@
   letter-spacing: 6px;
   font-size: 1.25rem;
   line-height: 1.2;
-  font-family: "PT Sans", sans-serif;
   font-weight: 400;
+  font-family: Poppins-Regular;
   margin: 0 auto;
 }
 
@@ -264,8 +265,8 @@
   line-height: 1.2;
   font-size: 3rem;
   letter-spacing: 0px;
-  font-family: Lato, sans-serif;
-  font-weight: 700;
+  font-family: Poppins-Regular;
+  font-weight: bold;
   margin: 18px 0 0;
 }
 
@@ -381,14 +382,14 @@
 .u-section-3 .u-text-1 {
   font-size: 3rem;
   letter-spacing: 0px;
-  font-family: Lato, sans-serif;
-  font-weight: 700;
   animation-duration: 1000ms;
-  margin: 66px auto 0;
+  font-family: Poppins-Regular;
+  font-weight: bold;
+  margin: 65px auto 0;
 }
 
 .u-section-3 .u-list-1 {
-  margin-top: 34px;
+  margin-top: 35px;
   margin-bottom: 60px;
 }
 
@@ -420,7 +421,7 @@
   font-size: 1.25rem;
   text-transform: none;
   font-weight: 700;
-  font-family: Lato, sans-serif;
+  font-family: Poppins-Regular;
   margin: 20px auto 0 0;
 }
 
@@ -446,7 +447,7 @@
   font-size: 1.25rem;
   text-transform: none;
   font-weight: 700;
-  font-family: Lato, sans-serif;
+  font-family: Poppins-Regular;
   margin: 20px auto 0 0;
 }
 
@@ -472,7 +473,7 @@
   font-size: 1.25rem;
   text-transform: none;
   font-weight: 700;
-  font-family: Lato, sans-serif;
+  font-family: Poppins-Regular;
   margin: 20px auto 0 0;
 }
 
@@ -498,7 +499,7 @@
   font-size: 1.25rem;
   text-transform: none;
   font-weight: 700;
-  font-family: Lato, sans-serif;
+  font-family: Poppins-Regular;
   margin: 20px auto 0 0;
 }
 
@@ -524,7 +525,7 @@
   font-size: 1.25rem;
   text-transform: none;
   font-weight: 700;
-  font-family: Lato, sans-serif;
+  font-family: Poppins-Regular;
   margin: 20px auto 0 0;
 }
 
@@ -550,7 +551,7 @@
   font-size: 1.25rem;
   text-transform: none;
   font-weight: 700;
-  font-family: Lato, sans-serif;
+  font-family: Poppins-Regular;
   margin: 20px auto 0 0;
 }
 
@@ -663,12 +664,12 @@
 .u-section-4 .u-text-1 {
   letter-spacing: 0px;
   font-size: 3rem;
-  font-weight: 700;
   --animation-custom_in-translate_x: -200px;
   --animation-custom_in-translate_y: 0px;
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
+  font-weight: bold;
   margin: 0 1px;
 }
 
@@ -772,6 +773,7 @@
   background-image: none;
   letter-spacing: 0px;
   font-weight: 700;
+  font-family: Poppins-Regular;
   padding: 10px 25px;
 }
 
@@ -780,6 +782,7 @@
   background-image: none;
   letter-spacing: 0px;
   font-weight: 700;
+  font-family: Poppins-Regular;
   padding: 10px 25px;
 }
 
@@ -788,6 +791,7 @@
   background-image: none;
   letter-spacing: 0px;
   font-weight: 700;
+  font-family: Poppins-Regular;
   padding: 10px 25px;
 }
 
@@ -810,14 +814,14 @@
 
 .u-section-5 .u-text-1 {
   line-height: 1.8;
-  width: 774px;
   font-weight: 700;
-  margin: 20px auto 0;
+  width: 774px;
+  margin: 17px auto 0;
 }
 
 .u-section-5 .u-text-2 {
   width: 774px;
-  margin: 20px auto 0;
+  margin: 22px auto 0;
 }
 
 .u-section-5 .u-tab-pane-2 {
@@ -908,7 +912,7 @@
 }
 
 .u-section-6 .u-container-layout-1 {
-  padding: 28px 60px 28px 21px;
+  padding: 28px 21px;
 }
 
 .u-section-6 .u-group-1 {
@@ -938,12 +942,12 @@
 
 .u-section-6 .u-text-3 {
   font-weight: 700;
-  margin: 78px 0 0;
+  margin: 77px 0 0;
 }
 
 .u-section-6 .u-text-4 {
   font-weight: 700;
-  margin: 15px 0 0;
+  margin: 16px 0 0;
 }
 
 .u-section-6 .u-layout-cell-2 {
@@ -1011,7 +1015,6 @@
 
   .u-section-6 .u-container-layout-1 {
     padding-top: 27px;
-    padding-right: 30px;
     padding-bottom: 27px;
   }
 
@@ -1156,7 +1159,7 @@
   margin-bottom: 0;
   margin-top: 0;
   letter-spacing: 6px;
-  font-weight: 700;
+  font-weight: bold;
 }
 
 .u-section-7 .u-text-2 {
@@ -1194,7 +1197,7 @@
 
 .u-section-7 .u-text-4 {
   letter-spacing: 6px;
-  font-weight: 700;
+  font-weight: bold;
   margin: 0;
 }
 
@@ -1280,7 +1283,7 @@
 .u-section-8 .u-group-1 {
   width: 700px;
   min-height: 567px;
-  margin: 60px auto;
+  margin: 32px auto;
 }
 
 .u-section-8 .u-container-layout-1 {
@@ -1306,6 +1309,10 @@
   height: 340px;
   width: 570px;
   margin: 20px auto 0;
+}
+
+.u-section-8 .u-btn-1 {
+  border-style: none;
 }
 
 @media (max-width: 767px) {
@@ -1339,4 +1346,19 @@
   .u-section-8 .u-form-1 {
     width: 320px;
   }
+}@font-face {
+  font-family: 'Poppins-SemiBold';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/Poppins-SemiBold.ttf);
+}@font-face {
+  font-family: 'Poppins-Light';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/Poppins-Light.ttf);
+}@font-face {
+  font-family: 'Poppins-Regular';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/Poppins-Regular.ttf);
 }

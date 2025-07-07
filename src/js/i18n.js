@@ -2,7 +2,7 @@ window.currentLang = 'en'
 
 const base = import.meta.env.BASE_URL || '/'
 
-export const supportedLangs = ['en', 'fr', 'de', 'es', 'pt', 'zh', 'ja']
+export const supportedLangs = ['en', 'fr', 'es', 'pt', 'zh', 'ja']
 
 export function applyTranslations(translations) {
   window.translations = translations
@@ -82,6 +82,24 @@ export async function setLang(lang) {
   } catch (err) {
     console.error(`Failed to load ${lang} translations:`, err)
   }
+}
+
+export async function loadInitialLanguage() {
+  document.documentElement.setAttribute('data-loading', '')
+
+  const params = new URLSearchParams(window.location.search)
+  const urlLang = params.get('lang')
+  const storedLang = localStorage.getItem('lang')
+
+  const lang = supportedLangs.includes(urlLang)
+    ? urlLang
+    : supportedLangs.includes(storedLang)
+      ? storedLang
+      : 'en'
+
+  await setLang(lang)
+
+  document.documentElement.removeAttribute('data-loading')
 }
 
 window.addEventListener('DOMContentLoaded', () => {

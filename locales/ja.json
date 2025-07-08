@@ -75,10 +75,6 @@
   "privacy.thirdPartiesText": "GitHubのボタンやGoogle Analyticsなどの第三者ツールを使用している場合があり、これらはユーザーの行動を追跡することがあります。各サービスのポリシーをご確認ください。",
   "privacy.cookies": "クッキー",
   "privacy.cookiesText": "Wexflowは、ユーザーの設定を記憶し、サイトのトラフィックを分析するためにクッキーを使用します。ブラウザの設定でクッキーを無効にすることも可能です。",
-  "privacy.security": "データのセキュリティ",
-  "privacy.securityText": "お客様のデータが不正にアクセスまたは開示されることを防ぐために、適切な措置を講じています。",
-  "privacy.rights": "お客様の権利",
-  "privacy.rightsText": "個人情報の閲覧、更新、削除をリクエストすることができます。ご不明な点があればお問い合わせください。",
   "privacy.changes": "ポリシーの変更",
   "privacy.changesText": "本ポリシーは更新されることがあります。ウェブサイトの利用を継続することで、最新のポリシーに同意したものとみなされます。"
 }

@@ -14,11 +14,11 @@ window.addEventListener('DOMContentLoaded', async () => {
     await loadInitialLanguage()
 
     // Initialize UI components
-    initHamburgerMenu()       // Mobile nav toggle
-    initHeaderScroll()        // Header border on scroll
-    initLanguageMenu(setLang) // Language dropdown logic
-    initThemeToggle()         // Light/dark mode toggle
-    updateFooterYear()        // Set current year in footer
+    initHamburgerMenu()        // Mobile nav toggle
+    initHeaderScroll()         // Header border on scroll
+    initLanguageMenu(setLang)  // Language dropdown logic
+    initThemeToggle()          // Light/dark mode toggle
+    updateFooterYear()         // Set current year in footer
   } catch (err) {
     console.error('Error during app initialization:', err)
   }

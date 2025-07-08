@@ -75,10 +75,6 @@
   "privacy.thirdPartiesText": "Nous pouvons utiliser des outils tiers comme les boutons GitHub ou Google Analytics, qui peuvent suivre le comportement des utilisateurs. Veuillez consulter leurs politiques respectives.",
   "privacy.cookies": "Cookies",
   "privacy.cookiesText": "Wexflow utilise des cookies pour mémoriser vos préférences et analyser le trafic du site. Vous pouvez désactiver les cookies dans les paramètres de votre navigateur.",
-  "privacy.security": "Sécurité des données",
-  "privacy.securityText": "Nous prenons des mesures appropriées pour protéger vos données contre tout accès ou divulgation non autorisé.",
-  "privacy.rights": "Vos droits",
-  "privacy.rightsText": "Vous pouvez demander à consulter, mettre à jour ou supprimer vos informations personnelles. Contactez-nous pour toute demande.",
   "privacy.changes": "Modifications de la politique",
   "privacy.changesText": "Nous pouvons mettre à jour cette politique. En continuant à utiliser notre site, vous acceptez la version la plus récente de la politique."
 }

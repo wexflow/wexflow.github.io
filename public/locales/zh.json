@@ -75,10 +75,6 @@
   "privacy.thirdPartiesText": "我们可能使用 GitHub 按钮或 Google Analytics 等第三方工具，这些工具可能会跟踪用户行为。请参考它们各自的政策。",
   "privacy.cookies": "Cookies",
   "privacy.cookiesText": "Wexflow 使用 Cookies 记住您的偏好并分析网站流量。您可以在浏览器设置中禁用 Cookies。",
-  "privacy.security": "数据安全",
-  "privacy.securityText": "我们采取适当措施保护您的数据免遭未经授权的访问或泄露。",
-  "privacy.rights": "您的权利",
-  "privacy.rightsText": "您可以请求查看、更新或删除您的个人信息。如有任何疑问，请联系我们。",
   "privacy.changes": "政策变更",
   "privacy.changesText": "我们可能会更新本政策。继续使用本网站即表示您同意最新版本的政策。"
 }

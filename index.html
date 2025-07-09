@@ -3,60 +3,61 @@
 
 <head>
   <!-- Basic Meta Tags -->
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="keywords" content="open-source, workflow, wexflow" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="open-source, workflow, wexflow">
   <meta name="description"
     content="Wexflow is an open-source and cross-platform workflow engine and automation platform built to simplify and automate recurring tasks.">
   <title>Wexflow - Open Source Workflow Engine</title>
 
   <!-- SEO -->
-  <meta name="robots" content="index, follow" />
-  <link rel="alternate" hreflang="en" href="https://wexcommerce.github.io/?lang=en" />
-  <link rel="alternate" hreflang="fr" href="https://wexcommerce.github.io/?lang=fr" />
-  <link rel="alternate" hreflang="es" href="https://wexcommerce.github.io/?lang=es" />
-  <link rel="alternate" hreflang="de" href="https://wexcommerce.github.io/?lang=de" />
-  <link rel="alternate" hreflang="pt" href="https://wexcommerce.github.io/?lang=pt" />
-  <link rel="alternate" hreflang="ja" href="https://wexcommerce.github.io/?lang=ja" />
-  <link rel="alternate" hreflang="zh" href="https://wexcommerce.github.io/?lang=zh" />
-  <link rel="alternate" hreflang="x-default" href="https://wexcommerce.github.io/" />
-  <link rel="canonical" href="https://wexcommerce.github.io/" />
+  <meta name="robots" content="index, follow">
+  <link rel="alternate" hreflang="en" href="https://wexcommerce.github.io/?lang=en">
+  <link rel="alternate" hreflang="fr" href="https://wexcommerce.github.io/?lang=fr">
+  <link rel="alternate" hreflang="es" href="https://wexcommerce.github.io/?lang=es">
+  <link rel="alternate" hreflang="de" href="https://wexcommerce.github.io/?lang=de">
+  <link rel="alternate" hreflang="pt" href="https://wexcommerce.github.io/?lang=pt">
+  <link rel="alternate" hreflang="ja" href="https://wexcommerce.github.io/?lang=ja">
+  <link rel="alternate" hreflang="zh" href="https://wexcommerce.github.io/?lang=zh">
+  <link rel="alternate" hreflang="x-default" href="https://wexcommerce.github.io/">
+  <link rel="canonical" href="https://wexcommerce.github.io/">
 
   <!-- Open Graph Meta Tags -->
-  <meta property="og:title" content="Wexflow - Open Source Workflow Engine" />
+  <meta property="og:title" content="Wexflow - Open Source Workflow Engine">
   <meta property="og:description"
-    content="Wexflow is an open-source and cross-platform workflow engine and automation platform built to simplify and automate recurring tasks." />
-  <meta property="og:url" content="https://wexflow.github.io" />
-  <meta property="og:image" content="https://wexflow.github.io/content/cover.png" />
+    content="Wexflow is an open-source and cross-platform workflow engine and automation platform built to simplify and automate recurring tasks.">
+  <meta property="og:url" content="https://wexflow.github.io">
+  <meta property="og:image" content="https://wexflow.github.io/content/cover.png">
 
   <!-- Twitter Card -->
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Wexflow - Open Source Workflow Engine" />
-  <meta name="twitter:description"
-    content="Wexflow is an open-source and cross-platform workflow engine and automation platform built to simplify and automate recurring tasks." />
-  <meta name="twitter:image" content="https://wexflow.github.io/content/cover.png" />
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Wexflow - Open Source Workflow Engine">
+  <meta name=" twitter:description"
+    content="Wexflow is an open-source and cross-platform workflow engine and automation platform built to simplify and automate recurring tasks.">
+  <meta name="twitter:image" content="https://wexflow.github.io/content/cover.png">
 
   <!-- Favicon -->
-  <link rel="icon" href="/favicon.png" />
+  <link rel="icon" href="/favicon.png">
+
+  <!-- preconnect -->
+  <link rel="preconnect" href="https://www.googletagmanager.com" crossorigin>
+  <link rel="preconnect" href="https://buttons.github.io" crossorigin>
 
   <!-- Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-LVWBMJM882"></script>
-  <script>
-    window.dataLayer = window.dataLayer || []
-    function gtag() { dataLayer.push(arguments) }
-    gtag('js', new Date())
-    gtag('config', 'G-LVWBMJM882')
+  <script type="module">
+    import { initGA } from './src/js/ga.js'
+    initGA('G-LVWBMJM882')
   </script>
 
   <!-- Vite build assets (JS + CSS) will be injected here -->
-  <link rel="stylesheet" href="/src/css/style.css" />
+  <link rel="stylesheet" href="/src/css/style.css">
 </head>
 
 <body>
   <header>
     <div class="header-container">
       <div class="title-wrapper">
-        <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+        <button type="button" class="hamburger" aria-label="Toggle menu" aria-expanded="false">
           <span class="icon"></span>
         </button>
         <a href="/" class="site-title">
@@ -76,7 +77,7 @@
         <ul class="nav-right">
           <li>
             <div class="lang-switcher">
-              <button id="lang-toggle" aria-expanded="false" aria-label="Language" class="lang-button">
+              <button id="lang-toggle" type="button" aria-expanded="false" aria-label="Language" class="lang-button">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                   stroke="currentColor" aria-hidden="true" data-slot="icon" height="20">
                   <path stroke-linecap="round" stroke-linejoin="round"
@@ -85,18 +86,19 @@
                 </svg>
               </button>
               <ul id="lang-menu" class="lang-menu" hidden>
-                <li><button data-lang="en">English</button></li>
-                <li><button data-lang="fr">Français</button></li>
-                <li><button data-lang="de">Deutsch</button></li>
-                <li><button data-lang="es">Español</button></li>
-                <li><button data-lang="pt">Português</button></li>
-                <li><button data-lang="zh">中文</button></li>
-                <li><button data-lang="ja">日本語</button></li>
+                <li><button data-lang="en" type="button">English</button></li>
+                <li><button data-lang="fr" type="button">Français</button></li>
+                <li><button data-lang="de" type="button">Deutsch</button></li>
+                <li><button data-lang="es" type="button">Español</button></li>
+                <li><button data-lang="pt" type="button">Português</button></li>
+                <li><button data-lang="zh" type="button">中文</button></li>
+                <li><button data-lang="ja" type="button">日本語</button></li>
               </ul>
             </div>
           </li>
           <li>
-            <button id="theme-toggle" aria-label="Toggle dark mode" aria-pressed="false" class="theme-toggle-btn">
+            <button id="theme-toggle" type="button" aria-label="Toggle dark mode" aria-pressed="false"
+              class="theme-toggle-btn">
               <svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="black"
                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="20" height="20"
                 style="display:none;">
@@ -120,8 +122,7 @@
             <a href="https://github.com/aelassas/wexflow" target="_blank" rel="noopener noreferrer" class="github-link"
               aria-label="View Wexflow repository on GitHub">
               <span class="github-link-content">
-                <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" fill="currentColor"
-                  style="margin-left: 4px; vertical-align: middle;">
+                <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" fill="currentColor">
                   <path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8a8 8 0 005.47 7.59c.4.07.55-.17.55-.38 
            0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52
            -.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95
@@ -179,10 +180,10 @@
           <li data-i18n="features.activities">100+ built-in activities</li>
         </ul>
 
-        <h4 data-i18n="features.ui_title">UI & Visualization</h4>
+        <h4 data-i18n="features.ui_title">UI &amp; Visualization</h4>
         <ul>
           <li data-i18n="features.dashboard">Powerful web dashboard</li>
-          <li data-i18n="features.designer">Visual workflow designer with drag & drop interface</li>
+          <li data-i18n="features.designer">Visual workflow designer with drag &amp; drop interface</li>
           <li data-i18n="features.stats">Real-time workflow statistics and monitoring</li>
           <li data-i18n="features.logs">Extensive logging for transparency and debugging</li>
         </ul>
@@ -193,14 +194,14 @@
           <li data-i18n="features.web">Web interface</li>
         </ul>
 
-        <h4 data-i18n="features.nternationalization_title">Internationalization & APIs</h4>
+        <h4 data-i18n="features.nternationalization_title">Internationalization &amp; APIs</h4>
         <ul>
           <li data-i18n="features.multilang">Multiple language support (English, French, Danish)</li>
           <li data-i18n="features.rest">RESTful API for integration with external systems</li>
           <li data-i18n="features.custom_activities">Extensible with Custom Activities via NuGet</li>
         </ul>
 
-        <h4 data-i18n="features.security_title">Security & Performance</h4>
+        <h4 data-i18n="features.security_title">Security &amp; Performance</h4>
         <ul>
           <li data-i18n="features.docker">Docker support for easy deployment</li>
           <li data-i18n="features.monitoring">Error monitoring</li>
@@ -259,7 +260,7 @@
         </p>
 
         <div id="github-issues-support">
-          <h4 data-i18n="githubIssues.title">Report Bugs & Request Features</h4>
+          <h4 data-i18n="githubIssues.title">Report Bugs &amp; Request Features</h4>
           <p data-i18n="githubIssues.description">
             Found a bug or want a new feature? Please help improve the project by
             <a href="https://github.com/aelassas/wexflow/issues" target="_blank" rel="noopener noreferrer"
@@ -274,9 +275,9 @@
         <h3 data-i18n="contact.title">Contact Us</h3>
         <form action="https://formspree.io/f/mrbzdaje" method="POST">
           <input type="text" name="name" placeholder="Name" data-i18n-placeholder="contact.namePlaceholder"
-            autocomplete="name" required />
+            autocomplete="name" required>
           <input type="email" name="email" placeholder="Email" data-i18n-placeholder="contact.emailPlaceholder"
-            autocomplete="email" required />
+            autocomplete="email" required>
           <textarea name="message" placeholder="Message" data-i18n-placeholder="contact.messagePlaceholder"
             required></textarea>
           <button type="submit" data-i18n="contact.submit">Send</button>
@@ -286,8 +287,8 @@
 
     <footer>
       <div class="container">
-        <p>Copyright © <span id="year"></span> <a href="https://wexflow.github.io">Wexflow</a>. <span
-            data-i18n="footer.copyright">All rightsreserved.</span></p>
+        <p>Copyright © <span id="year"></span> <a href="/">Wexflow</a>. <span data-i18n="footer.copyright">All
+            rightsreserved.</span></p>
       </div>
     </footer>
   </main>

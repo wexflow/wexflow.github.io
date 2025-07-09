@@ -1,3 +1,5 @@
+[![deploy](https://github.com/wexflow/wexflow.github.io/actions/workflows/deploy.yml/badge.svg)](https://github.com/wexflow/wexflow.github.io/actions/workflows/deploy.yml) [![lighthouse](https://github.com/wexflow/wexflow.github.io/actions/workflows/lighthouse.yml/badge.svg)](https://github.com/wexflow/wexflow.github.io/actions/workflows/lighthouse.yml)
+
 # Wexflow Website
 
 This repository contains the source code for the [Wexflow](https://wexflow.github.io/) official landing page.

@@ -8,6 +8,7 @@ export default defineConfig([
       'dist/',
       'node_modules/',
       '.vite/',
+      '.stats/',
     ],
   },
   {

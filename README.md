@@ -4,7 +4,7 @@
 
 [Wexflow](https://github.com/aelassas/wexflow) is a workflow engine offering a cross-platform workflow server, 100+ built-in activities and a powerful admin panel for managing your workflows.
 
-This repository contains the source code for the [Wexflow](https://wexflow.github.io/) official landing page.
+This repository contains the source code for the [Wexflow](https://wexflow.github.io/) official landing page — a presentation site for the project.
 
 Built with a clean and simple design, this website presents the main features, demo, support, and contact sections to introduce Wexflow to users and developers.
 

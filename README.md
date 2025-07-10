@@ -8,7 +8,7 @@ This repository contains the source code for the [Wexflow](https://wexflow.githu
 
 Built with a clean and simple design, this website presents the main features, support, and contact sections to introduce Wexflow to users and developers.
 
-The website is built using [Vite](https://vitejs.dev/) with plain HTML, CSS, and JavaScript.
+This website is built using [Vite](https://vitejs.dev/) with plain HTML, CSS, and JavaScript.
 
 Feel free to explore the code, see how everything works, suggest improvements, or use it as a starting point or template to build your own landing page.
 

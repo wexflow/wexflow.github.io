@@ -6,7 +6,7 @@
 
 This repository contains the source code for the [Wexflow](https://wexflow.github.io/) official landing page — a presentation site for the project.
 
-Built with a clean and simple design, this website presents the main features, demo, support, and contact sections to introduce Wexflow to users and developers.
+Built with a clean and simple design, this website presents the main features, support, and contact sections to introduce Wexflow to users and developers.
 
 The website is built using [Vite](https://vitejs.dev/) with plain HTML, CSS, and JavaScript.
 

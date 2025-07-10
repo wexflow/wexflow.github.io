@@ -17,7 +17,7 @@ Feel free to explore the code, see how everything works, suggest improvements, o
 - Multilingual support (English, French, German, Spanish, Portuguese, Japanese, Chinese)
 - Responsive and accessible design  
 - Language switcher and dark mode toggle  
-- Demo links and contact form integration  
+- Download links and contact form integration  
 - Simple, clean, and modern UI built with Vite
 
 ## Separation of Concerns (SoC)

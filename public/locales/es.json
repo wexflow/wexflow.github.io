@@ -9,7 +9,7 @@
   "hero.description": "Incluye un servidor de flujos de trabajo multiplataforma, más de 100 actividades integradas y un panel de administración potente para gestionar tus flujos de trabajo.",
   "hero.cta": "Descargar",
   "about.title": "Gratis, Multiplataforma, Código Abierto",
-  "about.description": "Wexflow es un motor de flujos de trabajo de código abierto con licencia MIT. Esto significa que puedes usarlo, modificarlo, compartirlo o incluso venderlo. Con más de 100 actividades integradas, Wexflow admite muchas tareas listas para usar, desde operaciones de archivos y procesos del sistema hasta scripting, redes y más. También puedes ampliar sus capacidades creando actividades personalizadas o integrándolo con otros sistemas a través de la API de Wexflow.",
+  "about.description": "Wexflow es un motor de flujo de trabajo de código abierto con licencia MIT. Esto significa que puedes usarlo, modificarlo, compartirlo o incluso venderlo libremente. Wexflow es más bien una plataforma de automatización y programación de tareas. Se enfoca en automatizar trabajos técnicos como mover o subir archivos, enviar correos electrónicos, ejecutar scripts o programar procesos por lotes. Es ideal cuando quieres automatizar tareas del sistema fácilmente sin escribir mucho código. Para escenarios más complejos, puedes crear tus propias actividades personalizadas, instalarlas y usarlas para ampliar sus capacidades.",
   "features.title": "Características",
   "features.workflow_title": "Motor de Flujos de Trabajo",
   "features.workflow_server": "Servidor de flujos de trabajo multiplataforma",

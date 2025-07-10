@@ -2,11 +2,11 @@
 
 ## About
 
-[Wexflow](https://github.com/aelassas/wexflow) is a workflow engine offering a cross-platform workflow server, 100+ built-in activities and a powerful admin panel for managing your workflows.
+[Wexflow](https://github.com/aelassas/wexflow) is an open-source and cross-platform workflow engine and automation platform built to simplify and automate recurring tasks. With over 100 built-in activities, Wexflow supports a wide range of tasks out of the box—from file operations and system processes to scripting, networking, and more.
 
 This repository contains the source code for the [Wexflow](https://wexflow.github.io/) official landing page — a presentation site for the project.
 
-Built with a clean and simple design, this website presents the main features, demo, support, and contact sections to introduce Wexflow to users and developers.
+Built with a clean and simple design, this website presents the main features, support, and contact sections to introduce Wexflow to users and developers.
 
 The website is built using [Vite](https://vitejs.dev/) with plain HTML, CSS, and JavaScript.
 
@@ -17,7 +17,7 @@ Feel free to explore the code, see how everything works, suggest improvements, o
 - Multilingual support (English, French, German, Spanish, Portuguese, Japanese, Chinese)
 - Responsive and accessible design  
 - Language switcher and dark mode toggle  
-- Demo links and contact form integration  
+- Download links and contact form integration  
 - Simple, clean, and modern UI built with Vite
 
 ## Separation of Concerns (SoC)
@@ -49,7 +49,7 @@ By keeping each concern isolated in its own file, the project becomes easier to 
 Clone the repository:
 
 ```bash
-git clone https://github.com/aelassas/wexflow.github.io.git
+git clone https://github.com/wexflow/wexflow.github.io.git
 cd wexflow.github.io
 ```
 
@@ -75,7 +75,7 @@ Build the static site for production:
 npm run build
 ```
 
-The built files will be in the dist folder, ready to be deployed.
+The built files will be in the `dist/` folder, ready to be deployed.
 
 ### Preview Production Build
 
@@ -89,7 +89,7 @@ npm run preview
 
 This project is configured to be deployed on [GitHub Pages](https://pages.github.com/).
 
-After building, push the `dist` contents to the gh-pages branch or use GitHub Actions for automated deployment.
+After building, push the `dist/` contents to the `gh-pages` branch or use GitHub Actions for automated deployment.
 
 ## Contributing
 

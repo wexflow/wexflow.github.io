@@ -9,7 +9,7 @@
   "hero.description": "Enthält einen plattformübergreifenden Workflow-Server, über 100 integrierte Aktivitäten und ein leistungsstarkes Admin-Panel zur Verwaltung Ihrer Workflows.",
   "hero.cta": "Download",
   "about.title": "Kostenlos, plattformübergreifend, Open Source",
-  "about.description": "Wexflow ist eine Open-Source-Workflow-Engine unter MIT-Lizenz. Das bedeutet, Sie können sie frei nutzen, verändern, teilen oder sogar verkaufen. Mit über 100 integrierten Aktivitäten unterstützt Wexflow eine Vielzahl von Aufgaben – von Dateioperationen und Systemprozessen bis hin zu Skripting, Netzwerken und mehr. Sie können die Funktionen auch erweitern, indem Sie eigene Aktivitäten erstellen oder externe Systeme über die Wexflow-API integrieren.",
+  "about.description": "Wexflow ist eine Open-Source-Workflow-Engine unter der MIT-Lizenz. Das bedeutet, dass Sie sie frei verwenden, ändern, teilen oder sogar verkaufen können. Wexflow ist eher eine Plattform für Aufgabenautomatisierung und Zeitplanung. Es konzentriert sich auf die Automatisierung technischer Aufgaben wie das Verschieben oder Hochladen von Dateien, das Versenden von E-Mails, das Ausführen von Skripten oder das Planen von Batch-Prozessen. Es eignet sich hervorragend, um Systemaufgaben einfach zu automatisieren, ohne viel Code schreiben zu müssen. Für komplexere Szenarien können Sie eigene benutzerdefinierte Aktivitäten erstellen, installieren und verwenden, um die Funktionen zu erweitern.",
   "features.title": "Funktionen",
   "features.workflow_title": "Workflow-Engine",
   "features.workflow_server": "Plattformübergreifender Workflow-Server",

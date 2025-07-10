@@ -9,7 +9,7 @@
   "hero.description": "Comprend un serveur de workflows multiplateforme, plus de 100 activités intégrées et un panneau d'administration puissant pour gérer vos workflows.",
   "hero.cta": "Télécharger",
   "about.title": "Gratuit, multiplateforme, open source",
-  "about.description": "Wexflow est un moteur de workflows open source sous licence MIT. Cela signifie que vous êtes libre de l'utiliser, le modifier, le partager ou même le vendre. Avec plus de 100 activités intégrées, Wexflow prend en charge de nombreuses tâches prêtes à l'emploi, comme les opérations sur fichiers, les processus système, les scripts, le réseau, et bien plus. Vous pouvez aussi l'étendre en créant vos propres activités ou en l'intégrant à d'autres systèmes via l'API Wexflow.",
+  "about.description": "Wexflow est un moteur de workflow open-source sous licence MIT. Cela signifie que vous êtes libre de l'utiliser, le modifier, le partager ou même le vendre. Wexflow est davantage une plateforme d'automatisation et de planification de tâches. Il se concentre sur l'automatisation de tâches techniques comme le déplacement ou le téléversement de fichiers, l'envoi d'e-mails, l'exécution de scripts ou la planification de processus par lots. Il est idéal pour automatiser facilement des tâches système sans écrire beaucoup de code. Pour des scénarios plus complexes, vous pouvez créer vos propres activités personnalisées, les installer et les utiliser pour étendre ses fonctionnalités.",
   "features.title": "Fonctionnalités",
   "features.workflow_title": "Moteur de Workflows",
   "features.workflow_server": "Serveur de workflows multiplateforme",

@@ -9,7 +9,7 @@
   "hero.description": "Includes a cross-platform workflow server, 100+ built-in activities and a powerful admin panel for managing your workflows.",
   "hero.cta": "Download",
   "about.title": "Free, Cross-Platform, Open Source",
-  "about.description": "Wexflow is an open-source workflow engine licensed under MIT. This means you're free to use, modify, share, or even sell it. With over 100 built-in activities, Wexflow supports a wide range of tasks out of the box—from file operations and system processes to scripting, networking, and more. You can also extend its capabilities by creating custom activities or integrating with external systems via the Wexflow API.",
+  "about.description": "Wexflow is an open-source workflow engine licensed under MIT. This means you're free to use, modify, share, or even sell it. Wexflow is more like a task automation and scheduling platform. It focuses on automating technical jobs like moving or uploading files, sending emails, running scripts, or scheduling batch processes. It's great when you want to automate system tasks easily without writing much code. For more complex scenarios, you can create your own custom activities, install them, and use them to extend its capabilities.",
   "features.title": "Features",
   "features.workflow_title": "Workflow Engine",
   "features.workflow_server": "Cross-platform workflow server",

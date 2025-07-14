@@ -17,6 +17,14 @@
   --btn-bg: #fff;
   --btn-bg: #212529;
   --btn-text: #fff;
+
+  --table-bg: #ffffff;
+  --table-alt-bg: #fafafa;
+  --table-header-bg: #f9f9f9;
+  --table-text: #1a1a1a;
+  --table-border: #ddd;
+  --table-shadow: rgba(0, 0, 0, 0.1);
+
   --form-bg: #fafafa;
   --form-border: #e0e0e0;
   --footer-bg: #f5f5f5;
@@ -43,6 +51,14 @@
   --lang-secondary: #1a73e8;
   --btn-bg: #121212;
   --btn-text: #F6F7F9;
+
+  --table-bg: #1e1e1e;
+  --table-alt-bg: #2a2a2a;
+  --table-header-bg: #2e2e2e;
+  --table-text: #f0f0f0;
+  --table-border: #444;
+  --table-shadow: rgba(0, 0, 0, 0.5);
+
   --form-bg: #1B1D24;
   --form-border: #1B1D24;
   --footer-bg: #1B1D24;
@@ -471,6 +487,96 @@ section h3 {
 
 .about .btn {
   margin-top: 2rem;
+}
+
+/* Compare Section*/
+#compare {
+  background-color: var(--background);
+}
+
+.table-wrapper {
+  overflow-x: auto;
+  margin: 1rem 0;
+  border: 1px solid var(--table-border);
+  border-radius: 8px;
+}
+
+.comparison-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  min-width: 600px;
+  font-family: sans-serif;
+  font-size: 0.95rem;
+  color: var(--table-text);
+  background-color: var(--table-bg);
+}
+
+.comparison-table thead {
+  background-color: var(--table-header-bg);
+}
+
+.comparison-table thead tr {
+  background-color: var(--table-header-bg) !important;
+}
+
+.comparison-table th,
+.comparison-table td {
+  padding: 12px 16px;
+  text-align: left;
+  border-bottom: 1px solid var(--table-border);
+  white-space: nowrap;
+}
+
+.comparison-table tr:nth-child(even) {
+  background-color: var(--table-alt-bg);
+}
+
+.comparison-table tr:nth-child(odd) {
+  background-color: var(--table-bg);
+}
+
+.comparison-table th:first-child,
+.comparison-table td:first-child {
+  position: sticky;
+  left: 0;
+  background-color: var(--table-header-bg);
+  z-index: 1;
+  box-shadow: 2px 0 5px -2px var(--table-shadow);
+
+  max-width: 160px !important;
+  white-space: normal !important;
+  overflow-wrap: break-word;
+}
+
+@media (min-width: 769px) {
+
+  /* Max width for all columns except first */
+  .comparison-table th:not(:first-child),
+  .comparison-table td:not(:first-child) {
+    max-width: 180px;
+    white-space: normal;
+    overflow-wrap: break-word;
+  }
+
+  /* Keep first column wide and no wrapping */
+  .comparison-table th:first-child,
+  .comparison-table td:first-child {
+    max-width: none;
+    white-space: nowrap;
+  }
+}
+
+/* Mobile tweaks */
+@media (max-width: 768px) {
+  .comparison-table {
+    font-size: 0.875rem;
+  }
+
+  .comparison-table th:first-child,
+  .comparison-table td:first-child {
+    min-width: 160px;
+  }
 }
 
 /* Features Section */

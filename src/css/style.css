@@ -415,7 +415,8 @@ nav a:focus {
   hyphens: auto;
 }
 
-.hero .btn {
+.hero .btn,
+.about .btn {
   display: inline-block;
   background: var(--btn-bg);
   color: var(--btn-text);
@@ -427,7 +428,8 @@ nav a:focus {
   min-width: 200px;
 }
 
-.hero .btn:hover {
+.hero .btn:hover,
+.about .btn:hover {
   background: var(--primary-hover);
 }
 
@@ -442,7 +444,7 @@ section h3 {
 }
 
 /* About Section */
-.about-section {
+.about {
   padding: 3rem 1.5rem;
   background-color: var(--background-dark);
   color: var(--text);
@@ -451,20 +453,24 @@ section h3 {
   margin: 0 auto 4rem auto;
 }
 
-.about-section h3 {
+.about h3 {
   font-size: 1.8rem;
   font-weight: 700;
   margin-bottom: 1rem;
   color: var(--primary-dark);
 }
 
-.about-section p {
+.about p {
   font-size: 1.1rem;
   line-height: 1.6;
   padding: 0 0.75rem;
   max-width: 700px;
   margin: 0 auto;
   color: var(--text-secondary);
+}
+
+.about .btn {
+  margin-top: 2rem;
 }
 
 /* Features Section */

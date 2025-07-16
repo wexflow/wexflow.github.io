@@ -58,6 +58,7 @@
   "features.rest": "外部システムと連携するためのRESTful API",
   "features.custom_activities": "NuGet経由のカスタムアクティビティで拡張可能",
   "features.security_title": "セキュリティとパフォーマンス",
+  "features.security": "XSS、CSRF、ブルートフォース攻撃、トークン盗難、不安全なパスワード保存から保護",
   "features.docker": "簡単なデプロイのためのDockerサポート",
   "features.monitoring": "エラーモニタリング",
   "features.platforms_title": "対応プラットフォーム",

@@ -58,7 +58,7 @@
   "features.rest": "API RESTful para integraciones externas",
   "features.custom_activities": "Extensible con actividades personalizadas vía NuGet",
   "features.security_title": "Seguridad y Rendimiento",
-  "features.security": "Protegido contra XSS, CSRF, ataques de fuerza bruta, robo de tokens y almacenamiento inseguro de contraseñas",
+  "features.security": "Protegido contra XSS, XST, CSRF, MITM, ataques de fuerza bruta, robo de tokens y contraseñas inseguras",
   "features.docker": "Soporte para Docker para una fácil implementación",
   "features.monitoring": "Monitoreo de errores",
   "features.platforms_title": "Plataformas Soportadas",

@@ -60,7 +60,7 @@
   "features.clients": "REST API Clients - Official examples for popular languages (C#, JS, PHP, Python, Go, Rust, Ruby, Java, C++)",
   "features.custom_activities": "Extensible with Custom Activities via NuGet",
   "features.security_title": "Security & Performance",
-  "features.security": "Secure against XSS, CSRF, brute force, token theft, and insecure password storage",
+  "features.security": "Secure against XSS, XST, CSRF, and MITM",
   "features.docker": "Docker support for easy deployment",
   "features.monitoring": "Error monitoring",
   "features.platforms_title": "Supported Platforms",

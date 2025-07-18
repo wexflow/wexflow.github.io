@@ -60,7 +60,7 @@
   "features.clients": "REST API 客户端 - 主流语言的官方示例 (C#、JS、PHP、Python、Go、Rust、Ruby、Java、C++)",
   "features.custom_activities": "通过 NuGet 扩展自定义活动",
   "features.security_title": "安全与性能",
-  "features.security": "防范XSS、CSRF、暴力破解、令牌窃取和不安全的密码存储",
+  "features.security": "防御 XSS、XST、CSRF 和 MITM 攻击",
   "features.docker": "支持 Docker 方便部署",
   "features.monitoring": "错误监控",
   "features.platforms_title": "支持的平台",

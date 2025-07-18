@@ -60,7 +60,7 @@
   "features.clients": "Clientes da API REST - Exemplos oficiais para linguagens populares (C#, JS, PHP, Python, Go, Rust, Ruby, Java, C++)",
   "features.custom_activities": "Extensível com atividades personalizadas via NuGet",
   "features.security_title": "Segurança & Performance",
-  "features.security": "Seguro contra XSS, CSRF, ataques de força bruta, roubo de tokens e armazenamento inseguro de senhas",
+  "features.security": "Seguro contra ataques XSS, XST, CSRF e MITM",
   "features.docker": "Suporte a Docker para implantação fácil",
   "features.monitoring": "Monitoramento de erros",
   "features.platforms_title": "Plataformas Suportadas",

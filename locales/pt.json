@@ -45,6 +45,7 @@
   "features.cron": "Agendamento baseado em Cron",
   "features.db": "Suporta mais de 6 motores de banco de dados",
   "features.sse": "Notificações push via SSE - Receba atualizações de workflows em tempo real sem polling",
+  "features.async": "Execução assíncrona de fluxos de trabalho para melhor concorrência e desempenho",
   "features.activities": "Mais de 100 atividades integradas",
   "features.ui_title": "Interface & Visualização",
   "features.dashboard": "Painel web poderoso",

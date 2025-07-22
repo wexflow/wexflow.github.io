@@ -45,6 +45,7 @@
   "features.cron": "Planification basée sur Cron",
   "features.db": "Plus de 6 moteurs de bases de données pris en charge",
   "features.sse": "Notifications push via SSE - Recevez des mises à jour en temps réel des workflows sans interroger le serveur",
+  "features.async": "Exécution asynchrone des workflows pour une meilleure concurrence et performance",
   "features.activities": "Plus de 100 activités intégrées",
   "features.ui_title": "UI & Visualisation",
   "features.dashboard": "Tableau de bord web puissant",

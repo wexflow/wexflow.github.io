@@ -45,6 +45,7 @@
   "features.cron": "Cronベースのスケジューリング",
   "features.db": "6種類以上のデータベースエンジンをサポート",
   "features.sse": "SSE によるプッシュ通知 - ポーリングなしでリアルタイムのワークフロー更新を受信",
+  "features.async": "非同期ワークフロー実行による並行性とパフォーマンスの向上",
   "features.activities": "100以上の組み込みアクティビティ",
   "features.ui_title": "UIと可視化",
   "features.dashboard": "強力なウェブダッシュボード",

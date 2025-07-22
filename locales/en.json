@@ -45,6 +45,7 @@
   "features.cron": "Cron-based scheduling",
   "features.db": "6+ database engines supported",
   "features.sse": "Push Notifications via SSE - Get real-time workflow job updates without polling",
+  "features.async": "Asynchronous workflow execution for improved concurrency and performance",
   "features.activities": "100+ built-in activities",
   "features.ui_title": "UI & Visualization",
   "features.dashboard": "Powerful web dashboard",

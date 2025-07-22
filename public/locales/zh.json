@@ -45,6 +45,7 @@
   "features.cron": "基于 Cron 的调度",
   "features.db": "支持 6 种以上数据库引擎",
   "features.sse": "通过 SSE 的推送通知 - 实时获取工作流作业更新，无需轮询",
+  "features.async": "异步工作流执行以提升并发性和性能",
   "features.activities": "100 多个内置活动",
   "features.ui_title": "界面与可视化",
   "features.dashboard": "强大的网页控制面板",

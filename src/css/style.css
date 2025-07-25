@@ -18,6 +18,9 @@
   --btn-bg: #212529;
   --btn-text: #fff;
 
+  --pre-bg: #1F1F1F;
+  --pre-color: #D0A347;
+
   --table-bg: #ffffff;
   --table-alt-bg: #fafafa;
   --table-header-bg: #f9f9f9;
@@ -51,6 +54,9 @@
   --lang-secondary: #1a73e8;
   --btn-bg: #121212;
   --btn-text: #F6F7F9;
+
+  --pre-bg: #FFF;
+  --pre-color: #1F1F1F;
 
   --table-bg: #1e1e1e;
   --table-alt-bg: #2a2a2a;
@@ -487,6 +493,55 @@ section h3 {
 
 .about .btn {
   margin-top: 2rem;
+}
+
+/* Quick Start Section */
+#quick-start {
+  padding: 3rem 1.5rem;
+  background-color: var(--background-dark);
+  color: var(--text);
+  max-width: 900px;
+  margin: 0 auto 4rem auto;
+}
+
+#quick-start .container {
+  width: fit-content;
+}
+
+@media screen and (max-width: 768px) {
+  #quick-start .container {
+    width: 90%;
+  }
+
+  #quick-start pre code {
+    white-space: pre-wrap;
+    word-break: break-word;
+  }
+}
+
+#quick-start p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  padding: 0 0.75rem;
+  max-width: 700px;
+  margin: 0 auto;
+  color: var(--text-secondary);
+}
+
+#quick-start pre {
+  padding: 0.4em !important;
+  margin: 15px 0;
+  background-color: var(--pre-bg);
+  color: var(--pre-color);
+  overflow-x: auto;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  padding: 0 0.75rem;
+}
+
+#quick-start .credentials {
+  margin: 10px 0;
 }
 
 /* Compare Section*/

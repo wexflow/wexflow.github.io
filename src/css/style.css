@@ -20,8 +20,8 @@
 
   --pre-bg: #1F1F1F;
   --pre-color: #D0A347;
-  --copy-btn-bg: #f0f0f0;
-  --copy-btn-hover-bg: #e0e0e0;
+  --copy-btn-color: #f0f0f0;
+  --copy-btn-hover-bg: #2F2F2F;
 
   --table-bg: #ffffff;
   --table-alt-bg: #fafafa;
@@ -59,8 +59,8 @@
 
   --pre-bg: #FFF;
   --pre-color: #1F1F1F;
-  --copy-btn-bg: #f0f0f0;
-  --copy-btn-hover-bg: #e0e0e0;
+  --copy-btn-color: #1F1F1F;
+  --copy-btn-hover-bg: #eaeaea;
 
   --table-bg: #1e1e1e;
   --table-alt-bg: #2a2a2a;
@@ -539,11 +539,23 @@ section h3 {
   max-width: 100%;
 }
 
+#quick-start pre {
+  padding: 0.4em 2.75em 0.4em 1em !important;
+  margin: 15px 0;
+  background-color: var(--pre-bg);
+  color: var(--pre-color);
+  overflow-x: auto;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  padding: 0 0.75rem;
+}
+
 #copy-btn {
   position: absolute;
   top: 22px;
   right: 8px;
-  background: var(--copy-btn-bg);
+  background: var(--pre-bg);
   border: none;
   padding: 4px 8px;
   cursor: pointer;
@@ -556,17 +568,8 @@ section h3 {
   background: var(--copy-btn-hover-bg);
 }
 
-#quick-start pre {
-  padding: 0.4em !important;
-  padding-right: 52px !important;
-  margin: 15px 0;
-  background-color: var(--pre-bg);
-  color: var(--pre-color);
-  overflow-x: auto;
-  border-radius: 5px;
-  font-size: 1.1rem;
-  line-height: 1.6;
-  padding: 0 0.75rem;
+#icon-copy, #icon-check{
+  stroke: var(--copy-btn-color);
 }
 
 #quick-start .credentials {

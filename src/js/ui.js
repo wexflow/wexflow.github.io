@@ -118,13 +118,15 @@ export function initThemeToggle() {
  */
 export function initCopyDockerCmd() {
   const btn = document.getElementById('copy-btn')
-  if (!btn) return
   const iconCopy = document.getElementById('icon-copy')
   const iconCheck = document.getElementById('icon-check')
-  btn.addEventListener('click', () => {
+  if (!btn || !iconCopy || !iconCheck) return
+  btn.addEventListener('click', async () => {
     const cmd = document.getElementById('dockerCmd')
     if (!cmd) return
-    navigator.clipboard.writeText(cmd.textContent).then(() => {
+    try {
+      await navigator.clipboard.writeText(cmd.textContent)
+
       // Swap icons
       iconCopy.style.display = 'none'
       iconCheck.style.display = 'inline'
@@ -132,9 +134,9 @@ export function initCopyDockerCmd() {
         iconCheck.style.display = 'none'
         iconCopy.style.display = 'inline'
       }, 2000)
-    }, err => {
+    } catch (err) {
       console.error('Failed to copy text: ', err)
-    })
+    }
   })
 }
 

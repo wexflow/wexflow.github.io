@@ -568,7 +568,12 @@ section h3 {
   background: var(--copy-btn-hover-bg);
 }
 
-#icon-copy, #icon-check{
+#icon-check {
+  display: none;
+}
+
+#icon-copy,
+#icon-check {
   stroke: var(--copy-btn-color);
 }
 

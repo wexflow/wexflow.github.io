@@ -113,6 +113,32 @@ export function initThemeToggle() {
 }
 
 /**
+ * Initializes the copy Docker command button.
+ *
+ */
+export function initCopyDockerCmd() {
+  const btn = document.getElementById('copy-btn')
+  if (!btn) return
+  const iconCopy = document.getElementById('icon-copy')
+  const iconCheck = document.getElementById('icon-check')
+  btn.addEventListener('click', () => {
+    const cmd = document.getElementById('dockerCmd')
+    if (!cmd) return
+    navigator.clipboard.writeText(cmd.textContent).then(() => {
+      // Swap icons
+      iconCopy.style.display = 'none'
+      iconCheck.style.display = 'inline'
+      setTimeout(() => {
+        iconCheck.style.display = 'none'
+        iconCopy.style.display = 'inline'
+      }, 2000)
+    }, err => {
+      console.error('Failed to copy text: ', err)
+    })
+  })
+}
+
+/**
  * Updates the footer year element with the current year.
  */
 export function updateFooterYear() {

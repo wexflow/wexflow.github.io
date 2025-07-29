@@ -540,26 +540,25 @@ section h3 {
 }
 
 #quick-start pre {
-  padding: 0.4em 2.75em 0.4em 1em !important;
+  padding: 0.4em 3.25em 0.4em 1em !important;
   margin: 15px 0;
   background-color: var(--pre-bg);
   color: var(--pre-color);
   overflow-x: auto;
   border-radius: 5px;
-  font-size: 1.1rem;
+  font-size: 1rem;
   line-height: 1.6;
   padding: 0 0.75rem;
 }
 
 #copy-btn {
   position: absolute;
-  top: 22px;
+  top: 20px;
   right: 8px;
   background: var(--pre-bg);
   border: none;
   padding: 4px 8px;
   cursor: pointer;
-  font-size: 14px;
   border-radius: 4px;
   transition: background 0.2s ease;
 }

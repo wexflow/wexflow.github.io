@@ -15,7 +15,7 @@ export default defineConfig({
       input: {
         main: resolve(__dirname, 'index.html'),
       },
-      // No manualChunks — let Rollup handle code splitting automatically
+      // No manualChunks - let Rollup handle code splitting automatically
     },
     minify: 'terser',
     terserOptions: {

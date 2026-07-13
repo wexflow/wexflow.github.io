@@ -122,3 +122,4 @@ This project is licensed under the MIT License.
 * [Wexflow GitHub](https://github.com/aelassas/wexflow)
 * [Download](https://github.com/aelassas/wexflow/releases/latest)
 * [Documentation](https://github.com/aelassas/wexflow/wiki)
+

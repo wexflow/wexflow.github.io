@@ -1,0 +1,57 @@
+{
+  "specVersion": "1.0",
+  "entries": [
+    {
+      "identifier": "urn:air:wexflow.github.io:docs:llms-txt",
+      "displayName": "Wexflow Overview & Quick Reference for LLMs",
+      "type": "application/ai-registry+json",
+      "url": "https://wexflow.github.io/llms.txt",
+      "description": "Structured Markdown summary of Wexflow, containing core feature overviews, technology stack breakdowns, and index links to documentation sections.",
+      "representativeQueries": [
+        "what is Wexflow and what does it do",
+        "open source cross platform workflow automation engine in C# .NET",
+        "Wexflow workflow engine architecture and persistence providers",
+        "system task automation and back office ETL pipeline engine"
+      ]
+    },
+    {
+      "identifier": "urn:air:wexflow.github.io:docs:llms-full-txt",
+      "displayName": "Wexflow Complete Full-Text Documentation for LLMs",
+      "type": "application/ai-registry+json",
+      "url": "https://wexflow.github.io/llms-full.txt",
+      "description": "Complete concatenated Markdown documentation suite for Wexflow, including sequential and flowchart workflows, built-in activities, custom C# task development, and REST API/SSE integration.",
+      "representativeQueries": [
+        "full Wexflow built in tasks catalog and activity settings reference",
+        "how to create debug and deploy custom C# tasks in Wexflow",
+        "Wexflow RESTful API endpoints and multi language client samples",
+        "configuring real time workflow job notifications via Server-Sent Events in Wexflow"
+      ]
+    },
+    {
+      "identifier": "urn:air:wexflow.github.io:docs:llms-full-txt",
+      "displayName": "Wexflow Full Documentation Context",
+      "type": "text/markdown",
+      "url": "https://wexflow.github.io/llms-full.txt",
+      "description": "Complete concatenated Markdown documentation context compiled from all Wexflow Wiki pages.",
+      "representativeQueries": [
+        "full Wexflow server configuration Wexflow.xml and database connection guides",
+        "how to configure cron scheduling flowchart logic and variables in Wexflow",
+        "setting up SQLite MongoDB PostgreSQL SQL Server or MySQL persistence in Wexflow",
+        "Wexflow Docker container deployment and web admin security setup"
+      ]
+    },
+    {
+      "identifier": "urn:air:wexflow.github.io:docs:wiki",
+      "displayName": "Wexflow Official Wiki Documentation",
+      "type": "application/ai-registry+json",
+      "url": "https://github.com/aelassas/wexflow/wiki",
+      "description": "Comprehensive wiki covering installation guides (Windows, Linux, macOS, Docker), persistence providers, web dashboard & designer, REST API references, and custom C# task development.",
+      "representativeQueries": [
+        "how to install Wexflow on Windows Linux macOS or Docker",
+        "configure sequential and flowchart workflows in Wexflow web designer",
+        "how to run Wexflow as a Windows service using Servy or NSSM",
+        "Wexflow Command Line Client and PowerShell module usage"
+      ]
+    }
+  ]
+}

@@ -28,9 +28,9 @@
       ]
     },
     {
-      "identifier": "urn:air:wexflow.github.io:docs:llms-full-txt",
+      "identifier": "urn:air:wexflow.github.io:docs:llms-full-context",
       "displayName": "Wexflow Full Documentation Context",
-      "type": "text/markdown",
+      "type": "application/ai-registry+json",
       "url": "https://wexflow.github.io/llms-full.txt",
       "description": "Complete concatenated Markdown documentation context compiled from all Wexflow Wiki pages.",
       "representativeQueries": [

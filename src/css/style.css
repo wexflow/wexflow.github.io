@@ -610,6 +610,14 @@ section h3 {
   color: var(--text);
 }
 
+#quick-start p a,
+#github-issues-support p a,
+footer p a {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  font-weight: normal;
+}
+
 #quick-start p.credentials {
   color: var(--text);
 }
@@ -838,8 +846,9 @@ section h3 {
 
 #github-issues-support a {
   color: var(--accent);
-  font-weight: 600;
-  text-decoration: none;
+  font-weight: normal;
+  text-decoration: underline;
+  text-underline-offset: 2px;
   transition: color 0.2s ease;
 }
 

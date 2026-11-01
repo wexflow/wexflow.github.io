@@ -4,6 +4,7 @@ import {
   initLanguageMenu,
   initThemeToggle,
   initCopyDockerCmd,
+  initGitHubButton,
   updateFooterYear
 } from './ui.js'
 
@@ -19,6 +20,7 @@ window.addEventListener('DOMContentLoaded', async () => {
     initThemeToggle()          // Light/dark mode toggle
     initCopyDockerCmd()        // Copy Docker command to clipboard
     updateFooterYear()         // Set current year in footer
+    initGitHubButton()         // Load GitHub star button after DOM updates
   } catch (err) {
     console.error('Error during app initialization:', err)
   }

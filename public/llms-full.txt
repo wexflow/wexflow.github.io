@@ -1,7 +1,7 @@
 # Wexflow - Full Documentation Context
 
 > Auto-generated full documentation context compiled from the Wexflow Wiki.
-> Generated on: 2026-10-24T17:16:02Z
+> Generated on: 2026-11-08T09:51:10Z
 
 ---
 
@@ -11968,3 +11968,4 @@ These examples serve as practical starting points to integrate Wexflow Push Noti
 ```
 
 ---
+

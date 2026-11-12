@@ -1,5 +1,6 @@
 {
   "website.title": "Wexflow - 开源工作流引擎",
+  "website.description": "Wexflow 是一个开源且跨平台的工作流引擎和自动化平台，旨在简化和自动化重复任务。",
   "title": "Wexflow",
   "nav.features": "功能",
   "nav.demo": "演示",

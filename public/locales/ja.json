@@ -1,5 +1,6 @@
 {
   "website.title": "Wexflow - オープンソースワークフローエンジン",
+  "website.description": "Wexflow は、繰り返し作業を簡素化し自動化するために構築されたオープンソースでクロスプラットフォームのワークフローエンジンおよび自動化プラットフォームです。",
   "title": "Wexflow",
   "nav.features": "機能",
   "nav.demo": "デモ",

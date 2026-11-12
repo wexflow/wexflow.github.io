@@ -1,5 +1,6 @@
 {
   "website.title": "Wexflow - Open Source Workflow Engine",
+  "website.description": "Wexflow ist eine Open-Source- und plattformübergreifende Workflow-Engine und Automatisierungsplattform, die entwickelt wurde, um wiederkehrende Aufgaben zu vereinfachen und zu automatisieren.",
   "title": "Wexflow",
   "nav.features": "Funktionen",
   "nav.demo": "Demo",

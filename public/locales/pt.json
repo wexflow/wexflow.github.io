@@ -1,5 +1,6 @@
 {
   "website.title": "Wexflow - Motor de Workflow Open Source",
+  "website.description": "Wexflow é um motor de workflow open-source e multiplataforma construído para simplificar e automatizar tarefas recorrentes.",
   "title": "Wexflow",
   "nav.features": "Funcionalidades",
   "nav.demo": "Demo",
